@@ -16,7 +16,11 @@
 </ol>
 
 <h2 id="descricao">Descrição</h2>
-<p> O <bold>Aluroni</bold> é uma página fictícia de um restaurante de massas. O projeto foi criado e desenvolvido ao passo em que eu assistia as aulas do curso <a href="https://cursos.alura.com.br/course/react-arquivos-estaticos" target="_blank">React: lidando com arquivos estáticos</a> presente na plataforma <a href="https://www.alura.com.br/" target="_blank">Alura.</p>
+<p> O <bold>Aluroni</bold> é uma página fictícia de um restaurante de massas. O projeto é uma SPA (single-page application) e foi criado e desenvolvido ao passo em que eu assistia as aulas dos seguintes cursos da plataforma <a href="https://www.alura.com.br/" target="_blank"><i>Alura</i></a>:</p>
+<ol>
+  <li><a href="https://cursos.alura.com.br/course/react-arquivos-estaticos" target="_blank">React: lidando com arquivos estáticos</a></li>
+  <li><a href="https://cursos.alura.com.br/course/react-biblioteca-react-router" target="_blank">React: conhecendo a biblioteca React Router</a></li>
+</ol>
 
 <h2 id="telas">Telas</h2>
 <p>O projeto trata-se de uma SPA (single-page application), ou seja, possui apenas uma página que se modifica de acordo com as interações do usuário.</p>
