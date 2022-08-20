@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+<h1 align="center">Aluroni</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="https://img.shields.io/github/repo-size/almeidagds/aluroni" alt="GitHub Repo Size"/>
+  <img src="https://img.shields.io/github/license/almeidagds/aluroni" alt="GitHub Repo License"/>
+  <img src="https://img.shields.io/github/last-commit/almeidagds/aluroni" alt="GitHub last commit"/>
+</div>
 
-## Available Scripts
+<h2>Sumário</h2>
+<ol>
+  <li><a href="#descricao">Descrição</a></li>
+  <li><a href="#telas">Telas</a></li>
+  <li><a href="#funcionalidades">Funcionalidades</a></li>
+  <li><a href="#tecnologias">Tecnologias utilizadas</a></li>
+  <li><a href="#instalacao">Instalação</a></li>
+</ol>
 
-In the project directory, you can run:
+<h2 id="descricao">Descrição</h2>
+<p> O <bold>Aluroni</bold> é uma página fictícia de um restaurante de massas. O projeto foi criado e desenvolvido ao passo em que eu assistia as aulas do curso <a href="https://cursos.alura.com.br/course/react-arquivos-estaticos" target="_blank">React: lidando com arquivos estáticos</a> presente na plataforma <a href="https://www.alura.com.br/" target="_blank">Alura.</p>
 
-### `npm start`
+<h2 id="telas">Telas</h2>
+<p>O projeto trata-se de uma SPA (single-page application), ou seja, possui apenas uma página que se modifica de acordo com as interações do usuário.</p>
+<p>Ao abrir o projeto, você poderá visualizar a seguinte página:</p>
+<div align="center"><img src="https://user-images.githubusercontent.com/82405235/185719992-a79efa19-e9cd-4d4a-9520-988b5ece9a9b.png" alt="Página inicial do Aluroni" /></div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2 id="funcionalidades">Funcionalidades</h2>
+<p>O Aluroni é a página inicial de um restaurante onde o cardápio é apresentado. O usuário pode interagir com essa lista de pratos e as seguintes ações são permitidas:</p>
+<ul>
+  <li>Pesquisar</li>
+  <li>Ordenar</li>
+  <li>Filtrar</li>
+</ul>
 
-### `npm test`
+<h2 id="tecnologias">Tecnologias utilizadas</h2>
+<p>Aqui estão algumas das tecnologias que foram utilizadas nesse projeto</p>
+<ul>
+  <li>TypeScript</li>
+  <li>JavaScript</li>
+  <li>Sass</li>
+  <li>CSS</li>
+  <li>React</li>
+  <li>Webpack</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id="instalacao">Instalação</h2>
+<p><strong>Versão recomendada do Node para instalação do projeto: 16.13.1.</strong></p>
+<p>Para instalar e navegar pelo projeto, é necessário apenas que você clone esse repositório na sua máquina e rode os seguintes comandos no seu terminal dentro da pasta do projeto:</p>
+<ol>
+  <li><code>npm install</code></li>
+  <li><code>npm start</code></li>
+<ol/>
