@@ -5,7 +5,6 @@ import Buscador from "./Buscador";
 import Filtros from "./Filtros";
 import Itens from "./Itens";
 import Ordenador from "./Ordenador";
-import Menu from "components/Menu";
 
 export default function Cardapio() {
 
@@ -15,7 +14,6 @@ export default function Cardapio() {
 
 	return (
 		<main>
-			<Menu />
 			<header className={styles.header}>
 				<div className={styles.header__text}>A casa do código e da massa</div>
 			</header>
