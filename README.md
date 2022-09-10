@@ -9,8 +9,15 @@
 <h2>Sumário</h2>
 <ol>
   <li><a href="#descricao">Descrição</a></li>
-  <li><a href="#telas">Telas</a></li>
-  <li><a href="#funcionalidades">Funcionalidades</a></li>
+  <li><a href="#telas">Telas</a>
+    <ol type="a">
+      <li><a href="#telas__inicial">Página inicial</li>
+      <li><a href="#telas__cardapio">Cardápio</li>
+      <li><a href="#telas__sobre">Sobre</li>
+      <li><a href="#telas__detalhes">Detalhes do prato</li>
+      <li><a href="#telas__notfound">Not found</li>
+    </ol>
+  </li>
   <li><a href="#tecnologias">Tecnologias utilizadas</a></li>
   <li><a href="#instalacao">Instalação</a></li>
 </ol>
@@ -24,17 +31,45 @@
 
 <h2 id="telas">Telas</h2>
 <p>O projeto trata-se de uma SPA (single-page application), ou seja, possui apenas uma página que se modifica de acordo com as interações do usuário.</p>
-<p>Ao abrir o projeto, você poderá visualizar a seguinte página:</p>
-<div align="center"><img src="https://user-images.githubusercontent.com/82405235/185719992-a79efa19-e9cd-4d4a-9520-988b5ece9a9b.png" alt="Página inicial do Aluroni" /></div>
 
+<h3 id="telas__inicial">Página inicial</h3>
+<p>A página inicial exibe a seção "Recomendações da cozinha" que seleciona três pratos do cardápio aleatoriamente para indicar ao usuário. Também, é possível visualizar a localidade do restaurante.</p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/82405235/189492061-913be70b-7268-4b3b-a23d-05dc7227e9ab.JPG" alt="Página inicial do Aluroni" style="width: 40%"/>
+  <img src="https://user-images.githubusercontent.com/82405235/189492063-b49d3a80-97aa-4f26-b9e4-fc9386b896fe.JPG" alt="Página inicial do Aluroni" style="width: 40%"/>
+</div>
 
-<h2 id="funcionalidades">Funcionalidades</h2>
-<p>O Aluroni é a página inicial de um restaurante onde o cardápio é apresentado. O usuário pode interagir com essa lista de pratos e as seguintes ações são permitidas:</p>
+<h3 id="telas__cardapio">Cardápio</h3>
+<p>A página de cardápio exibe todos os pratos existentes no menu do restaurante. É possível realizar as seguintes ações em relação ao cardápio:</p>
 <ul>
-  <li>Pesquisar</li>
-  <li>Ordenar</li>
-  <li>Filtrar</li>
+  <li>Pesquisar pratos pelo nome;</li>
+  <li>Filtrar pratos pelo seu tipo;</li>
+  <li>Ordenar os pratos por porção, preço ou por quantas pessoas serve.</li>
 </ul>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/82405235/189492499-f1b551c1-61c9-4d84-88c7-05706e3689c1.JPG" alt="Página de Cardápio do Aluroni" style="width: 40%"/>
+  <img src="https://user-images.githubusercontent.com/82405235/189492501-f5081859-5016-4796-9188-5f3851950834.JPG" alt="Página de Cardápio do Aluroni" style="width: 40%"/>
+</div>
+
+<h3 id="telas__sobre">Sobre</h3>
+<p>Tem como objetivo compartilhar mais detalhes sobre o Aluroni.</p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/82405235/189492767-3620fdd1-c743-4c33-a066-7fe43ef48a78.JPG" alt="Página de Sobre do Aluroni" style="width: 40%"/>
+  <img src="https://user-images.githubusercontent.com/82405235/189492768-4f14b5d3-4bc9-4e89-9a6a-6559257342a7.JPG" alt="Página de Sobre do Aluroni" style="width: 40%"/>
+</div>
+
+<h3 id="telas__detalhes">Detalhes do prato</h3>
+<p>Página que descreve os detalhes de cada prato presente no cardápio do Aluroni.</p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/82405235/189492965-9d6865aa-0743-42bf-8d53-d446bb18e50c.JPG" alt="Página de Detalhes do Prato do Aluroni" style="width: 40%"/>
+  <img src="https://user-images.githubusercontent.com/82405235/189492966-437a575d-12bc-4f33-b72d-f9f11949d00d.JPG" alt="Página de Detalhes do Prato do Aluroni" style="width: 40%"/>
+</div>
+
+<h3 id="telas__notfound">Not found</h3>
+<p>O usuário é redirecionado para essa página toda vez que tenta entrar em alguma página ou url não existente no site do Aluroni.</p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/82405235/189493097-8db3d33f-06cd-4e5a-9514-dd2790fc817e.JPG" alt="Página de Detalhes do Prato do Aluroni" style="width: 40%"/>
+</div>
 
 <h2 id="tecnologias">Tecnologias utilizadas</h2>
 <p>Aqui estão algumas das tecnologias que foram utilizadas nesse projeto</p>
@@ -44,6 +79,7 @@
   <li>Sass</li>
   <li>CSS</li>
   <li>React</li>
+  <li>React Router DOM</li>
   <li>Webpack</li>
 </ul>
 
